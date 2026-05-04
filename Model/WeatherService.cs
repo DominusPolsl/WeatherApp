@@ -12,7 +12,7 @@ namespace Pogodynka.Model
     public class WeatherService
     {
         private readonly HttpClient _httpClient;
-        private const string ApiKey = "Your Open Weather API key";
+        private const string ApiKey = "b12a2e9a8d278da44979345550098280";
 
         public WeatherService()
         {

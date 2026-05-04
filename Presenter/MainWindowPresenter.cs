@@ -45,7 +45,7 @@ namespace Pogodynka.Presenter
 
                 if (forecast != null)
                 {
-                    _view.Temperature = $"{forecast.Main.Temp} °C";
+                    _view.Temperature = $"{(int)forecast.Main.Temp} °C";
                     _view.Humidity = $"{forecast.Main.Humidity}%";
                     _view.Pressure = $"{forecast.Main.Pressure} hPa";
                     _view.Description = forecast.Weather[0].Description;
